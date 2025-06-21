@@ -12,6 +12,52 @@
             <p>Dashboard</p>
           </a>
         </li>
+        <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-database"></i>
+            <p>
+                Data Master
+                <i class="right fas fa-angle-left"></i>
+            </p>
+            </a>
+            <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <a href="{{ route('kampus.index') }}" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Data Kampus</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ route('mahasiswa.index') }}" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Data Mahasiswa</p>
+                </a>
+            </li>
+            </ul>
+        </li>
+        <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-database"></i>
+            <p>
+                Magang
+                <i class="right fas fa-angle-left"></i>
+            </p>
+            </a>
+            <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <a href="{{ route('pengajuan.index') }}" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Pengajuan Magang</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Lain</p>
+                </a>
+            </li>
+            </ul>
+        </li>
         <li class="nav-item">
           <a href="/magang" class="nav-link">
             <i class="nav-icon fas fa-briefcase"></i>
